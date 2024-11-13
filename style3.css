@@ -1,0 +1,82 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+      }
+.Josefin {
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 20px;
+      font-style: normal;
+      }
+.listlink{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+nav{
+    background-color: grey;
+    height: 20vh;
+    color: white;
+}
+header{
+    background-image: url(https://picsum.photos/1000/1000);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.linkhome{
+    color: orangered;
+    text-decoration: none;
+}
+.background{
+    background-color:rgba(0, 174, 255, 0.959);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.buttonArticle{
+    background-color: black;
+    color: white;
+}
+.buttonArticle:hover{
+    background-color: bisque;
+    color: black;
+}
+article{
+    width: 60%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    float: left;
+    background-color: yellow;
+    font-size: small;
+}
+.linkaside{
+    text-decoration:none;
+    color:black;
+    font-size: smaller;
+}
+    
